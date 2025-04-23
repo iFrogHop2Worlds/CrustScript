@@ -1,31 +1,38 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://crustscript.tiiny.site/CrustScriptLogo.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://crustscript.tiiny.site/CrustScriptLogo.svg">
     <img alt="The Rust Programming Language: A language empowering everyone to build reliable and efficient software"
-         src="https://raw.githubusercontent.com/rust-lang/www.rust-lang.org/master/static/images/rust-social-wide-light.svg"
+         src="https://crustscript.tiiny.site/CrustScriptLogo.svg"
          width="50%">
   </picture>
 
-[Website][Rust] | [Getting started] | [Learn] | [Documentation] | [Contributing]
 </div>
 
-This is the main source code repository for [Rust]. It contains the compiler,
+This is the main source code repository for CrustScript. It contains the compiler,
 standard library, and documentation.
 
-[Rust]: https://www.rust-lang.org/
-[Getting Started]: https://www.rust-lang.org/learn/get-started
-[Learn]: https://www.rust-lang.org/learn
-[Documentation]: https://www.rust-lang.org/learn#learn-use
+[Getting Started]: coming soon
+
+[Learn]:coming soon
+
+[Documentation]: coming soon
+
 [Contributing]: CONTRIBUTING.md
 
-## Why Rust?
+## Why CrustScript?
 
-- **Performance:** Fast and memory-efficient, suitable for critical services, embedded devices, and easily integrated with other languages.
 
-- **Reliability:** Our rich type system and ownership model ensure memory and thread safety, reducing bugs at compile-time.
+# High Performance with Familiar Syntax: 
+CrustScript brings Rust’s blazing speed and memory efficiency to your projects while letting you code in a JavaScript/TypeScript style you already know. Instead of trying to force JavaScript on the backend, CrustScript offers the best of both worlds—Rust's powerhouse performance with syntax that feels like home.
 
-- **Productivity:** Comprehensive documentation, a compiler committed to providing great diagnostics, and advanced tooling including package manager and build tool ([Cargo]), auto-formatter ([rustfmt]), linter ([Clippy]) and editor support ([rust-analyzer]).
+# Rock-Solid Reliability: 
+Leveraging Rust’s robust type system and ownership model, CrustScript guarantees memory safety and thread reliability. This means fewer bugs and more predictable behavior at compile-time, giving you peace of mind when building complex systems—all without abandoning the language patterns you’re used to.
+
+# Enhanced Developer Productivity: 
+With comprehensive documentation, intuitive compiler diagnostics, and state-of-the-art tooling (think built-in package management, automated build tools, and integrated formatters and linters), CrustScript is engineered to streamline your workflow. Enjoy a smooth migration from conventional JS/TS development to a backend environment that truly performs without the learning curve of a completely new language.
+
+Embrace CrustScript, and step into a world where you can harness Rust’s advanced safety and performance benefits while staying in the comfort zone of JavaScript/TypeScript. This unique blend allows you to build robust backend services with the productivity and expressiveness you already love.([Clippy]) and editor support ([rust-analyzer]).
 
 [Cargo]: https://github.com/rust-lang/cargo
 [rustfmt]: https://github.com/rust-lang/rustfmt
@@ -34,10 +41,7 @@ standard library, and documentation.
 
 ## Quick Start
 
-Read ["Installation"] from [The Book].
-
-["Installation"]: https://doc.rust-lang.org/book/ch01-01-installation.html
-[The Book]: https://doc.rust-lang.org/book/index.html
+coming soon
 
 ## Installing from Source
 
@@ -46,7 +50,7 @@ If you really want to install from source (though this is not recommended), see
 
 ## Getting Help
 
-See https://www.rust-lang.org/community for a list of chat platforms and forums.
+raise an issue
 
 ## Contributing
 
@@ -54,24 +58,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-Rust is primarily distributed under the terms of both the MIT license and the
+CrustScript is primarily distributed under the terms of both the MIT license and the
 Apache License (Version 2.0), with portions covered by various BSD-like
 licenses.
 
 See [LICENSE-APACHE](LICENSE-APACHE), [LICENSE-MIT](LICENSE-MIT), and
 [COPYRIGHT](COPYRIGHT) for details.
-
-## Trademark
-
-[The Rust Foundation][rust-foundation] owns and protects the Rust and Cargo
-trademarks and logos (the "Rust Trademarks").
-
-If you want to use these names or brands, please read the
-[Rust language trademark policy][trademark-policy].
-
-Third-party logos may be subject to third-party copyrights and trademarks. See
-[Licenses][policies-licenses] for details.
-
-[rust-foundation]: https://rustfoundation.org/
-[trademark-policy]: https://rustfoundation.org/policy/rust-trademark-policy/
-[policies-licenses]: https://www.rust-lang.org/policies/licenses
